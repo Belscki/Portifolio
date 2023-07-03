@@ -1,0 +1,89 @@
+/* Principal Do header */
+.top{
+    margin: 5vh 5vw 5vh 5vw;
+    background-color: rgb(255, 255, 255);
+    padding: 2vh 2vw 10vh 2vw;
+    border-radius: 30px 30px 30px 30px;
+    -webkit-box-shadow: -1px 9px 51px -8px rgba(92,91,92,1);
+    -moz-box-shadow: -1px 9px 51px -8px rgba(92,91,92,1);
+    box-shadow: -1px 9px 51px -8px #5F3826;
+}
+
+/* Parte 1 do header */
+header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: none;
+    
+}
+
+header .div-header{
+    background-color: rgb(255, 255, 255);
+    background-color: none;
+}
+
+header .div-header h1{
+    background-color: rgb(255, 255, 255);
+    margin-top: 4vh;
+    font-size: 2rem;
+    background-color: none;
+}
+header .div-header h2{
+    margin-top: 3vh;
+    color: #5F3826;
+    font-size: 1.7rem;
+    background-color: none;
+    background-color: rgb(255, 255, 255);
+}
+
+header .div-header button{
+    margin: 5vh 2vw 1vh 2vw;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #5F3826;
+    padding: 20px 40px 20px 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Parte 2 seção apresentação    */
+
+.apresentacao{
+    margin: 1vh -2vw 0vh -3.9vh;
+    background-color: #5F3826;
+}
+.apresentacao .div-apresentacao{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    margin: 15vh 2vw 2vh 2vw;
+    background-color: white;
+}
+
+.apresentacao .div-apresentacao .texto-apresentacao{
+    margin: 6vh 0vw 2vh 5vw;
+    background-color: #ffe0c2;
+    gap: 60px;
+    border-radius: 15px 15px 15px 15px;
+}
+.apresentacao .div-apresentacao .texto-apresentacao h1{
+    text-align: center;
+    background-color: #5F3826;
+    color: white;
+    font-size: 2rem;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.apresentacao .div-apresentacao .texto-apresentacao h2{
+    margin: 5vh 3vw 0vh 3vw;
+    font-size: 1.7rem;
+    text-align: justify;
+    background-color: #ffe0c2;
+}
+.apresentacao .div-apresentacao img{
+    margin: 0vh 5vw 0vh 10vw;
+    width: 33vw;
+    border-radius: 50px;
+}
