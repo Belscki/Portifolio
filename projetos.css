@@ -1,0 +1,91 @@
+.projetos{
+    background-color: white;
+    display: flex;
+    background-color: #5F3826;
+    -webkit-box-shadow: -1px 9px 51px -8px rgba(92,91,92,1);
+    -moz-box-shadow: -1px 9px 51px -8px rgba(92,91,92,1);
+    box-shadow: -1px 9px 51px -8px #5F3826;
+}
+
+.projetos .div-projetos{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin: 15vh 20vw 10vh 15vw;   
+    border-radius: 50px;
+}
+.projetos .div-projetos img{
+    width: 20vw;
+    margin: 10vh 0vw 10vh 0vw;
+    border-radius: 50px;
+}
+.projetos .div-projetos .projeto-1{
+    margin: 10vh 10vw 10vh 10vw;
+}
+.projetos .div-projetos .projeto-1 h1{
+    text-align: center;
+    background-color: #5F3826;
+    color: white;
+    font-size: 2rem;
+    border-radius: 15px 15px 0px 0px;
+}
+.projetos .div-projetos .projeto-1 h2{
+    text-align: justify;
+    background-color: #ffe0c2;
+    border-radius: 0px 0px 15px 15px;
+    margin-top: 1vh;
+}
+
+.projetos .div-projetos .projeto-1 button{
+    margin: 5vh 0vw 0vh 6vw;
+    padding: 1.5vw;
+    border-radius: 15px;
+    border: 1px solid;
+    color: white;
+    background-color: #5F3826;
+}
+/*  */
+.projetos-2{
+    margin-top: 5vh;
+    background-color: white;
+    display: flex;
+    background-color: #5F3826;
+    -webkit-box-shadow: -1px 9px 51px -8px rgba(92,91,92,1);
+    -moz-box-shadow: -1px 9px 51px -8px rgba(92,91,92,1);
+    box-shadow: -1px 9px 51px -8px #5F3826;
+}
+.projetos-2 .div-projetos-2{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin: 15vh 20vw 10vh 15vw;   
+    border-radius: 50px;
+}
+.projetos-2 .div-projetos-2 img{
+    width: 20vw;
+    margin: 10vh 0vw 10vh 0vw;
+    border-radius: 50px;
+}
+.projetos-2 .div-projetos-2 .projeto-2{
+    margin: 10vh 10vw 10vh 10vw;
+}
+.projetos-2 .div-projetos-2 .projeto-2 h1{
+    text-align: center;
+    background-color: #5F3826;
+    color: white;
+    font-size: 2rem;
+    border-radius: 15px 15px 0px 0px;
+}
+.projetos-2 .div-projetos-2 .projeto-2 h2{
+    text-align: justify;
+    background-color: #ffe0c2;
+    border-radius: 0px 0px 15px 15px;
+    margin-top: 1vh;
+}
+
+.projetos-2 .div-projetos-2 .projeto-2 button{
+    margin: 5vh 0vw 0vh 6vw;
+    padding: 1.5vw;
+    border-radius: 15px;
+    border: 1px solid;
+    color: white;
+    background-color: #5F3826;
+}
